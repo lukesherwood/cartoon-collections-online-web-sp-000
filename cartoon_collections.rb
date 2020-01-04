@@ -9,7 +9,7 @@ end
 def long_planeteer_calls(array)
   #are any of the words in an array longer than 4 characters
   #return true if longer than 4, false if none longer than 4
- array.any? { |x| ["val1", "val2", "val3", "val4"].include?(x) }
+ array.any? {|x| x.length > 4}
   
 end
 
