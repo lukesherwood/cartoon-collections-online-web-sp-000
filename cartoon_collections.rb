@@ -15,8 +15,6 @@ end
 
 def find_the_cheese(array)
   #look thru array and return first cheese, return nil if no cheese
-  if array.find("cheddar")
-    
-  else return nil
+ array.each{|item| if item == ("cheddar" || "gouda" || "camembert") return item}
   end
 end
